@@ -1,0 +1,48 @@
+.domModules-imageCarousel-div{
+  width:100px;
+  height:100px;
+  position:relative;
+}
+
+.domModules-imageCarousel-img{
+  width:100px;
+  height:100px;
+  position:absolute;
+}
+
+.domModules-imageCarousel-hidden{
+  display:none;
+}
+
+.domModules-imageCarousel-button{
+  z-index: 1;
+  position:absolute;
+  height:100%;
+  background-color:rgba(240, 248, 255, 0);
+  border:none;
+}
+.domModules-imageCarousel-left-button{
+  left:0%;
+  position:absolute;
+}
+.domModules-imageCarousel-right-button{
+  position:absolute;
+  left:100%;
+  transform:translate(-100%);
+}
+.domModules-imageCarousel-pointdiv{
+  position:absolute;
+  top:100%;
+  left:50%;
+  transform:translate(-50%);
+  display:grid;
+  height:10px;
+  grid-template-rows: 10px;
+  grid-auto-flow: column;
+}
+.domModules-imageCarousel-point{
+  font-size:0.3rem;
+}
+.domModules-imageCarousel-point-selected{
+  transform:scale(1.5);
+}
